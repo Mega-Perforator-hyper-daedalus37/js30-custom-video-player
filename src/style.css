@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+}
+
+.custom-video-player {
+  position: relative;
+  justify-content: center;
+}
+.video {
+  width: 50vw;
+}
+.resume-button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.volume {
+  appearance: slider-vertical;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}
+.progress {
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
